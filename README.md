@@ -83,25 +83,25 @@ A favicon is a small icon that appears in a browser's address bar, on a browser 
 
 By default, browsers look in the root folder of a website for a `favicon.ico` file. At a bare minimum, you should include a `favicon.ico` file in your root folder (where your index.html file is located).
 
-Modern browsers can display higher resolution favicons, so it's best to include different versions of your favicon.
+Modern browsers and mobile devices prefer PNG favicons, so it's best to include different versions of your favicon.
 
 - Using VS Code's Explorer, create a folder in your project called `images`
 - Use [favicon.io](https://favicon.io/) to either convert a PNG file (upload a square PNG file with a _simple image_ that's at least 200px wide) or generate one from text or an emoji.
 - Download the images the site generates and extract them into your`images` folder.
 - Move the `favicon.ico` from your `images` folder to your root folder (same location as your `index.html` file).
 - Copy the HTML from the `favicon.io` site and paste it into the `<head>` section of your `index.html` file.
-- Change the path in the copied HTML to point to the files in your `images` folder. Because of some quirks with how Github pages works, you will also need to add a `.` before your `image` folder in the path (you do not, and should not, add the `.` to paths in your `<body>` section). The HTML in your head should look like this:
+- Change the path in the copied HTML to point to the files in your `images` folder by prepending the path with `images` The HTML in your `<head>` should look like this:
 
   ```html
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-  <link rel="manifest" href="./images/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
   ```
 
 | ⚠️ Check your formatting  |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| When you save your `index.html` file, check that your `<link>` tags do not end with a `/>` and/or are broken up to several lines. This means Prettier is formatting your HTML. If this is the case, you need to disable Prettier formatting for HTML. See the **Configure VS Code** page on Learning Suite for information on how to do this. |
+| When you save your `index.html` file, check that your `<link>` tags do not end with a `/>` and are broken up into several lines. This means Prettier is formatting your HTML. If this is the case, you need to disable Prettier formatting for HTML. See the **Configure VS Code** page on Learning Suite for information on how to do this. |
 
 ### Configuring `<body>`
 
@@ -179,7 +179,7 @@ If you have any errors, fix them in VSCode, commit and sync, and then re-validat
 
 ## Pass automated tests
 
-I've add some Github actions and written some automated tests to pre-check your assignments.  After you've ensured that your page has validated, open your repo in Github and check that you've passed the automated tests. Look at the top right of your repo header. If you have passed all the tests, you'll see a green check mark:
+I've add some Github actions and written some automated tests to pre-grade your assignments.  After you've ensured that your page has validated, open your repo in Github and check that you've passed the automated tests. Look at the top right of your repo header. If you have passed all the tests, you'll see a green check mark:
 
 ![passed tests](readme-assets/pass.png)
 
@@ -191,7 +191,7 @@ If you see a yellow dot, it means that the test is still running. Wait for the t
 
 | ⚠️ Advanced |
 |:-----|
-|The actions – validate and proof – are in a YAML file in the `.github/workflows` folder. If you want to see the code that runs the tests I wrote, you can look in the `tests` folder. The tests are written in JavaScript using the [Jest](https://jestjs.io/) testing framework. If you've worked with Node, you can run the tests in VS Code by installing the project with `npm i`. You can then run the tests with `npm test`)|
+|The actions – validate and proof – are in a YAML file in the `.github/workflows` folder. If you want to see the code that runs the tests I wrote, you can look in the `tests` folder. The tests are written in JavaScript using the [Jest](https://jestjs.io/) testing framework. If you've worked with Node, you can run the tests in VS Code by installing the project with `npm install`. You can then run the tests with `npm test`)|
 
 ### Current automated tests
 
