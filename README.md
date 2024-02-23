@@ -137,7 +137,7 @@ If everything looks good then.....
 
 Open the Source Control menu from the VS Code Activity bar. You should see a list of files that have been changed. Enter a commit message and click `✓ Commit` to commit your changes. You can also use the keyboard shortcut `Ctrl`-`Enter` to commit your changes.
 
-Next, click `↻ Sync Changes ↑` to sync your changes to Github.
+==Next, click `↻ Sync Changes ↑` to sync your changes to Github.==
 
 ## 🚀 Publish your web page on Github Pages
 
