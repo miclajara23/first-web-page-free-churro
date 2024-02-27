@@ -4,7 +4,7 @@
       "name": "pretests",
       "setup": "npm install",
       "run": "npm test",
-      "input": "",
+      "input": "http://127.0.0.1:5501/index.html",
       "output": "",
       "comparison": "included",
       "timeout": 10,
