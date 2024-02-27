@@ -142,7 +142,7 @@ Next, click `↻ Sync Changes ↑` to sync your changes to Github.
 ## 🚀 Publish your web page on Github Pages
 
 Open your repo nn Github.
-
+ 
 1. Click on the `Settings` tab.
 2. Scroll down to the `Pages` item and click on it.
 3. For the Branch, select `main` as the source branch, keep the default folder as `/(root)` and click `Save`.

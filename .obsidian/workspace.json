@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a351bdf832d9c8dc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,19 +157,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ced90acb91aa26c",
+  "active": "a351bdf832d9c8dc",
   "lastOpenFiles": [
-    "images/favicon_io/site.webmanifest",
-    "images/favicon_io/about.txt",
-    "images/favicon_io",
-    "images/favicon.ico",
+    "node_modules/yargs-parser/build/lib/yargs-parser-types.js",
+    "node_modules/yargs-parser/build/lib/yargs-parser.js",
+    "node_modules/yargs-parser/build/lib/tokenize-arg-string.js",
+    "node_modules/yargs-parser/build/lib/string-utils.js",
+    "node_modules/yargs-parser/build/lib/index.js",
+    "node_modules/yargs-parser/build/lib",
+    "node_modules/yargs/locales/zh_TW.json",
+    "node_modules/yargs/locales/uz.json",
+    "node_modules/yargs/locales/zh_CN.json",
+    "node_modules/yargs/locales/uk_UA.json",
+    "node_modules/yargs/locales/tr.json",
+    "node_modules/istanbul-reports/lib/html-spa/assets/sort-arrow-sprite.png",
+    "node_modules/@jest/reporters/assets/jest_logo.png",
+    "node_modules/@bcoe/v8-coverage/dist/lib/README.md",
+    "node_modules/@bcoe/v8-coverage/dist/lib/LICENSE.md",
+    "node_modules/@bcoe/v8-coverage/dist/lib/CHANGELOG.md",
+    "node_modules/@sinonjs/commons/lib/prototypes/README.md",
+    "node_modules/jsdom/README.md",
+    "node_modules/source-map/CHANGELOG.md",
+    "node_modules/lru-cache/README.md",
+    "node_modules/pirates/README.md",
+    "node_modules/makeerror/readme.md",
+    "node_modules/jsesc/README.md",
+    "node_modules/istanbul-reports/lib/html/assets/favicon.png",
+    "node_modules/istanbul-reports/lib/html/assets/sort-arrow-sprite.png",
+    "node_modules/parse-json/readme.md",
+    "node_modules/safe-buffer/README.md",
+    "node_modules/to-regex-range/README.md",
+    "node_modules/natural-compare/README.md",
+    "node_modules/wrap-ansi/readme.md",
+    "node_modules/isexe/README.md",
+    "node_modules/balanced-match/LICENSE.md",
+    "node_modules/braces/CHANGELOG.md",
+    "node_modules/color-convert/CHANGELOG.md",
     "images/favicon-32x32.png",
     "images/favicon-16x16.png",
     "images/apple-touch-icon.png",
     "images/android-chrome-512x512.png",
-    "images/android-chrome-192x192.png",
-    "images",
-    "images/favicon_io.zip",
-    "index1.html"
+    "images/android-chrome-192x192.png"
   ]
 }
